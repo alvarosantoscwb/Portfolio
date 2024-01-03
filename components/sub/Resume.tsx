@@ -7,10 +7,10 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 import Image from "next/image";
 
-const HeroContent = () => {
+const Resume = () => {
   return (
     <motion.div
       initial="hidden"
@@ -18,23 +18,25 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-          <Image
-            src="/foto-perfil.jpeg"
-            alt="perfil"
-            width={250}
-            height={250}
-            className="rounded-[50%]"
-          />
-          <div className="flex gap-5">
-          
-        </div>
+        <Image
+          src="/foto-perfil.jpeg"
+          alt="perfil"
+          width={250}
+          height={250}
+          className="rounded-[50%]"
+          priority
+        />
+        <div className="flex gap-5"></div>
         <div className="flex gap-5">
-        <a href="https://www.linkedin.com/in/alvarosantoscwb/" target="_blank">
-        <Image className="cursor-pointer" src="/linkedin.svg" alt="work icons" height={30} width={30} />
-        </a>
-        <a href="https://github.com/alvarosantoscwb" target="_blank">
-          <Image className="cursor-pointer" src="/gitwhite.png" alt="work icons" height={30} width={30} />
-        </a>
+          <a
+            href="https://www.linkedin.com/in/alvarosantoscwb/"
+            target="_blank"
+          >
+            <RxLinkedinLogo size={30} />
+          </a>
+          <a href="https://github.com/alvarosantoscwb" target="_blank">
+            <RxGithubLogo size={30} />
+          </a>
         </div>
         <motion.div
           variants={slideInFromLeft(0.5)}
@@ -45,12 +47,12 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-md text-gray-400 my-5 max-w-[600px]"
         >
-          Sou um desenvolvedor front end com 2 anos de experiência, de uma
-          olhada nos meus projetos e habilidades.
+          Esta página é dedicada a demonstrar um pouco das minhas habilidades
+          como programador frontend. Com dois anos de experiência na área,
+          compartilho com você o meu portfólio de projetos.
         </motion.p>
-        
       </div>
 
       <motion.div
@@ -69,4 +71,4 @@ const HeroContent = () => {
   );
 };
 
-export default HeroContent;
+export default Resume;

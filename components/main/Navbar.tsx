@@ -11,11 +11,11 @@ const Navbar = () => {
             <a href="#about-me" className="cursor-pointer">
               Sobre
             </a>
-            <a href="#projects" className="cursor-pointer">
-              Experiência
-            </a>
             <a href="#skills" className="cursor-pointer">
               Skills
+            </a>
+            <a href="#experience" className="cursor-pointer">
+              Experiências
             </a>
             <a href="#projects" className="cursor-pointer">
               Projetos
