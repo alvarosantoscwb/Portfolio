@@ -12,18 +12,18 @@ const Projects = () => {
         <ProjectCard
           src="/admin.png"
           title="Painel Admin"
-          description="Esse projeto eu também estou construindo, acredito que modelando ele pode ser utilizado com venda de produtos ou até mesmo registro de cliente ou rh."
+          description="Esse projeto eu também estou construindo, acredito que modelando ele pode ser utilizado com venda de produtos ou até mesmo registro de clientes ou rh."
         />
 
         <ProjectCard
           src="/car-app.png"
           title="Loja de carros"
-          description="Esse projeto também em React, eu ainda estou construindo e estou querendo fazer um panel onde o usuario consegue adicionar o titulo descricao e imagens"
+          description="Esse projeto também em React, eu ainda estou construindo e estou querendo fazer um painel onde o usuário consegue adicionar o titulo, descrição e imagens."
         />
         <ProjectCard
           src="/react-fullstack.png"
           title="Cadastro Clientes"
-          description="Um dos primeiros projetos que usei React, fiz a parte do back end utilizando Node.js e Prisma, fiz um CRUD para cadastro."
+          description="Um dos primeiros projetos que usei React, fiz a parte do back end utilizando Node.js e Prisma, fiz um CRUD para cadastro de clientes."
         />
       </div>
     </div>
