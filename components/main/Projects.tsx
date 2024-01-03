@@ -21,7 +21,6 @@ const Projects = () => {
           description="Esse projeto também em React, eu ainda estou construindo e estou querendo fazer um panel onde o usuario consegue adicionar o titulo descricao e imagens"
         />
         <ProjectCard
-          
           src="/react-fullstack.png"
           title="Cadastro Clientes"
           description="Um dos primeiros projetos que usei React, fiz a parte do back end utilizando Node.js e Prisma, fiz um CRUD para cadastro."
