@@ -4,7 +4,7 @@ Esse é o meu portfolio.
 
 ```bash
 npm install
-
+&&
 npm run dev
 
 ```
