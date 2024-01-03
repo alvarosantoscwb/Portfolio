@@ -1,12 +1,12 @@
 Esse é o meu portfolio.
 
-## Instale as dependencias
+## Instale as dependências.
 
 ```bash
 npm install
 ```
 
-## Iniciar o projeto
+## Iniciar o projeto.
 ```bash
 npm run dev
 ```
