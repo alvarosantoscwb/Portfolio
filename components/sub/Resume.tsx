@@ -45,9 +45,7 @@ const Resume = () => {
           variants={slideInFromLeft(0.8)}
           className="text-md text-gray-400 my-5 max-w-[600px]"
         >
-          Esta página é dedicada a demonstrar um pouco das minhas habilidades
-          como programador frontend. Com dois anos de experiência na área,
-          compartilho com você o meu portfólio de projetos.
+          Esta página reúne minhas principais habilidades como desenvolvedor full stack. Desde 2022, trabalho no desenvolvimento de aplicações modernas, utilizando tecnologias atuais para criar soluções eficientes, escaláveis e com foco em performance e experiência do usuário. Abaixo você pode conferir alguns dos projetos que demonstram minha experiência na prática.
         </motion.p>
       </div>
 
