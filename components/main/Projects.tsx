@@ -8,23 +8,33 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold mb-20">Meus Projetos</h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/admin.png"
-          title="Painel Admin"
-          description="Esse projeto eu também estou construindo, acredito que modelando ele pode ser utilizado com venda de produtos ou até mesmo registro de clientes ou rh."
-        />
+      <div className="h-full w-full flex flex-col md:flex-row gap-8 px-10 max-w-7xl">
+        <div className="flex-1">
+          <ProjectCard
+            src="/adestrador.png"
+            title="Adestrador"
+            description="Landing page para servicos de adestramento de animais, desenvolvida com foco em conversao e apresentacao visual dos servicos."
+            link="https://adestrador-five.vercel.app/"
+          />
+        </div>
 
-        <ProjectCard
-          src="/car-app.png"
-          title="Loja de carros"
-          description="Esse projeto também em React, eu ainda estou construindo e estou querendo fazer um painel onde o usuário consegue adicionar o titulo, descrição e imagens."
-        />
-        <ProjectCard
-          src="/react-fullstack.png"
-          title="Cadastro Clientes"
-          description="Um dos primeiros projetos que usei React, fiz a parte do back end utilizando Node.js e Prisma, fiz um CRUD para cadastro de clientes."
-        />
+        <div className="flex-1">
+          <ProjectCard
+            src="/diario.png"
+            title="Diario de Justica"
+            description="Aplicacao fullstack que consome a API publica do PJE (Diario de Justica Eletronico Nacional), armazena comunicacoes processuais em banco de dados e as apresenta em uma interface web com filtros, detalhamento e resumo por IA."
+            github="https://github.com/alvarosantoscwb/Diario-PJE"
+            link="https://diario-pje.vercel.app/"
+          />
+        </div>
+
+        <div className="flex-1">
+          <ProjectCard
+            src="/olipet.png"
+            title="Olipet"
+            description="Painel administrativo completo para gerenciamento de negocios, com funcionalidades de cadastro de produtos, gestao de clientes e controle de vendas."
+          />
+        </div>
       </div>
     </div>
   );
