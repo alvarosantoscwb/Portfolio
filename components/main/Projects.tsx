@@ -7,7 +7,7 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
       id="projects"
     >
-      <h1 className="text-[40px] font-semibold mb-20">Meus Projetos</h1>
+      <h1 className="text-[40px] font-semibold mb-20 text-gradient">Meus Projetos</h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-8 px-10 max-w-7xl">
         <div className="flex-1">
           <ProjectCard

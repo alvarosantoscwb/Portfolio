@@ -12,18 +12,17 @@ const Experience = () => {
       <div className="flex flex-col items-center justify-center">
         <motion.div
           variants={slideInFromTop}
-          className="text-[30px] text-white font-medium text-center mb-[15px] mt-[15px]"
+          className="text-[30px] text-gradient font-medium text-center mb-[15px] mt-[15px]"
         >
           Minhas experiências
         </motion.div>
 
-        {/* NHS */}
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#f81a1a61]">
+        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#8b5cf661] bg-gradient-to-r from-[#8b5cf6]/10 to-[#a78bfa]/10">
           NHS Energia do Seu Jeito - 2024 / Atual
         </div>
 
-        <div className="mx-[50px] text-center max-w-[800px]">
-          <div className="mb-2 font-semibold">
+        <div className="mx-[50px] text-center max-w-[800px] bg-gradient-to-br from-gray-900/50 to-gray-800/30 p-6 rounded-xl backdrop-blur-sm border border-gray-700/30">
+          <div className="mb-2 font-semibold text-[#a78bfa]">
             Analista Desenvolvedor Fullstack Pleno
           </div>
 
@@ -63,13 +62,12 @@ const Experience = () => {
           Redis, DynamoDB, Supabase, PostgreSQL
         </div>
 
-        {/* Preambulo */}
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#f81a1a61]">
+        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#8b5cf661] bg-gradient-to-r from-[#8b5cf6]/10 to-[#a78bfa]/10">
           Preambulo Tech - 2022 / 2023
         </div>
 
-        <div className="mx-[50px] text-center max-w-[800px]">
-          <div className="mb-2 font-semibold">
+        <div className="mx-[50px] text-center max-w-[800px] bg-gradient-to-br from-gray-900/50 to-gray-800/30 p-6 rounded-xl backdrop-blur-sm border border-gray-700/30">
+          <div className="mb-2 font-semibold text-[#a78bfa]">
             Desenvolvedor Frontend (Júnior → Pleno)
           </div>
 
