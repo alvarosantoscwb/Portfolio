@@ -35,7 +35,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/5541999999999"
+            href="https://wa.me/5541997414445"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-gradient-to-br from-gray-800/50 to-gray-900/50 border border-gray-700/50 p-6 rounded-xl hover:border-[#8b5cf6] transition-all duration-300 hover:shadow-lg hover:shadow-[#8b5cf6]/20 hover:-translate-y-1"
@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-white">WhatsApp</h3>
-                <p className="text-gray-400 text-sm">+55 41 99999-9999</p>
+                <p className="text-gray-400 text-sm">+55 41 99741-4445</p>
               </div>
             </div>
           </a>
